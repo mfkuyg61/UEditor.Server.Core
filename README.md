@@ -1,9 +1,10 @@
 # UEditor.Server.Core
 百度UEditor(图片、文件等)上传所依赖的后端服务，支持.Net Core 2.0+，简单易用，
 
+#支持前后端分离
 
 # 使用教程
-当前后台服务地址为http://localhost:58898
+当前后台服务接口地址为http://localhost:58898时
 
 # 1.在ConfigureServices中添加
 services.AddUEditor(a =>  
