@@ -13,16 +13,15 @@ services.AddUEditor(a =>
     a.IsCache = false;//不使用缓存  
     a.ControllerName = "/controller";//后台接口  
     a.WithOrigins = new string[] { "http://localhost:58898" };//访问白名单  
-
 });  
 
 # 2.在Configure中添加  
- app.UseUEditor();//百度编辑器,请放在app.UseCors()前面  
+app.UseUEditor();//百度编辑器,请放在app.UseCors()前面  
  
  
 # 3.UEditor配置,以UEditor.Server.Core.Demo为例  
 ueditor.config.js中配置  
 window.UEDITOR_HOME_URL = '/ueditor/'  
 window.UEDITOR_CONFIG={  
-  serverUrl:'http://localhost:58898/controller'  
+    serverUrl:'http://localhost:58898/controller'  
 }  
