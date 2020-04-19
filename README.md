@@ -6,7 +6,9 @@
 # 使用教程
 当前后台服务接口地址为http://localhost:58898时
 
-# 1.在ConfigureServices中添加
+# 1.建议使用NuGet安装：Install-Package UEditor.Server.Core -Version 1.0.1
+
+# 2.在ConfigureServices中添加
 services.AddUEditor(a =>  
 {  
     a.WebRootPath = _hostingEnvironment.WebRootPath;//为_hostingEnvironment为IHostingEnvironment  
@@ -16,11 +18,11 @@ services.AddUEditor(a =>
     a.WithOrigins = new string[] { "http://localhost:58898" };//访问白名单  
 });  
 
-# 2.在Configure中添加  
+# 3.在Configure中添加  
 app.UseUEditor();//百度编辑器,请放在app.UseCors()前面  
  
  
-# 3.UEditor配置,以UEditor.Server.Core.Demo为例  
+# 4.UEditor配置,以UEditor.Server.Core.Demo为例  
 ueditor.config.js中配置  
 window.UEDITOR_HOME_URL = '/ueditor/'  
 window.UEDITOR_CONFIG={  
