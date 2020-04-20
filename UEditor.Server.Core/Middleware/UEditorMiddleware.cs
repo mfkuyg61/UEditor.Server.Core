@@ -51,7 +51,7 @@ namespace UEditor.Server.Core
                     if (context.Request.Headers.ContainsKey("Origin"))
                     {//跨域限制
                         context.Response.Headers.Add("Access-Control-Allow-Origin", context.Request.Headers["Origin"]);
-                        context.Response.Headers.Add("Access-Control-Allow-Origin", context.Request.Headers["Origin"]);
+                        //context.Response.Headers.Add("Access-Control-Allow-Origin", context.Request.Headers["Origin"]);
                         context.Response.Headers.Add("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS,HEAD,PATCH");
                         context.Response.Headers.Add("Access-Control-Allow-Headers", context.Request.Headers["Access-Control-Request-Headers"]);
                         context.Response.Headers.Add("Access-Control-Allow-Credentials", "true");
