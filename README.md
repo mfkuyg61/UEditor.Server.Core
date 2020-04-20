@@ -6,7 +6,7 @@
 # 使用教程
 当前后台服务接口地址为http://localhost:58898时
 
-# 1.建议使用NuGet安装：Install-Package UEditor.Server.Core -Version 1.0.1
+# 1.建议使用NuGet安装：Install-Package UEditor.Server.Core -Version 1.0.2
 
 # 2.在ConfigureServices中添加
 services.AddUEditor(a =>  
