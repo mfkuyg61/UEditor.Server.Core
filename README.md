@@ -29,15 +29,15 @@ window.UEDITOR_CONFIG={
     serverUrl:'http://localhost:58898/controller'  
 }  
 
-# 5.注意:如果是前后端分离配置文件需要修改,否则空字符即可,demo改名为ueditor.json 
+# 5.注意:如果是前后端分离配置文件需要修改,否则空字符即可,demo改名为ueditor.json  
 
-{
-    "imageUrlPrefix":"http://localhost:58898/",
-    "scrawlUrlPrefix": "http://localhost:58898/", 
-    "snapscreenUrlPrefix": "http://localhost:58898/",
-    "catcherUrlPrefix": "http://localhost:58898/",
-    "videoUrlPrefix": "http://localhost:58898/",
-    "fileUrlPrefix": "http://localhost:58898/",
-    "imageManagerUrlPrefix": "http://localhost:58898/",
-    "fileManagerUrlPrefix": "http://localhost:58898/",
-}
+{  
+    "imageUrlPrefix":"http://localhost:58898/",  
+    "scrawlUrlPrefix": "http://localhost:58898/",   
+    "snapscreenUrlPrefix": "http://localhost:58898/",  
+    "catcherUrlPrefix": "http://localhost:58898/",  
+    "videoUrlPrefix": "http://localhost:58898/",  
+    "fileUrlPrefix": "http://localhost:58898/",  
+    "imageManagerUrlPrefix": "http://localhost:58898/",  
+    "fileManagerUrlPrefix": "http://localhost:58898/",  
+}  
