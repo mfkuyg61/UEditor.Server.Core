@@ -41,3 +41,8 @@ window.UEDITOR_CONFIG={
     "imageManagerUrlPrefix": "http://localhost:58898/",  
     "fileManagerUrlPrefix": "http://localhost:58898/",  
 }  
+
+# 6.请使用Demo中的ueditor.all.js,官方的有iframe跨域问题
+开始修改行号:24478-24579
+修改前源代码:24580-24645
+
